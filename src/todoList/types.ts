@@ -11,4 +11,10 @@ export interface todoState {
   };
 }
 
+export interface testimonialState {
+  loading: boolean;
+  data: any;
+  error?: any;
+}
+
 export type todoActionTypes = ActionType<typeof todoAction>;

@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import configureStore from "./store";
 import TodoApp from "./ToDoTask";
+import Testimonials from "./components/Testimonials";
 
 const store = configureStore();
 
@@ -13,7 +14,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       {/* <App /> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+      <Testimonials />
     </Provider>
   </React.StrictMode>,
   document.getElementById("root")
